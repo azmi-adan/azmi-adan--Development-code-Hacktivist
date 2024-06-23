@@ -1,3 +1,121 @@
-body {
-    background: blue;
-  }
+*{
+font-family: 'Times New Roman', Times, serif padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+outline: none;border: none;
+text-transform: capitalize;
+transition: all.2s linear;
+}
+html{
+    font-size: 100%;
+    
+}
+.home{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+html{
+    background-color: bisque;
+}
+.home h3{
+    font-size: 3rem;
+    color: green
+}
+.home h1{
+    font-size: 3rem;
+}
+#about{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    
+}
+.btn{
+    padding: 7rem 3rem;
+    background:black;
+    color: azure;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+.btn{
+    padding: 0 .5rem;
+    font-size: 1.8rem;
+}
+.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding: left 3rem; ;
+
+}.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:irem 0 ;
+    padding: left 3rem;
+
+}
+.Portfolio .box-container{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+
+}.Portfolio .box-container.box{
+    height: 20rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Portfolio .box-container.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact.row.content{
+    flex:1 30rem;
+    padding:4rem ;
+    padding-bottom: 0;
+}
+.contact.row form {
+    flex:1 1 45rem;
+    padding:2rem ;
+    margin: 2rem;
+padding-bottom: 4rem;
+}
+.contact.row form.box{
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #333;
+    color: #fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+
+}
+.contact .row .contact .title{
+ text-transform: uppercase; 
+ color: #fff;
+ font-size: 3rem; 
+ padding-bottom: 2rem;
+
+}
+
+
+
+
